@@ -64,6 +64,7 @@ trading/
 ```sql
 CREATE DATABASE trading;
 
+
 2. **Update application.properties**
 File: src/main/resources/application.properties
 spring.datasource.url=jdbc:mysql://localhost:3306/trading
@@ -81,6 +82,16 @@ coingecko.api.key=YOUR_CG_API_KEY
 If successful, backend runs on:
 👉 http://localhost:5454
 
+---
 
+## 🌐 Frontend Setup (React)
 
+1. **Create a MySQL database:**
+
+```sql
+CREATE DATABASE trading;
+
+Frontend runs at:
+👉 http://localhost:3000
+---
 
