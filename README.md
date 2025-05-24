@@ -91,7 +91,9 @@ If successful, the backend will be running at:
 ## 🌐 Frontend Setup (React)
 1. **Navigate to the React Project**
 
+```
 cd src/main/webapp/frontend
+```
  
 2. **Install Dependencies**
 
@@ -124,4 +126,7 @@ View top 100 crypto coins with name, price, and 24h change
 ---
 
 ## 📸 Screenshots
-Add your output images here after frontend is loaded successfully.
+Output images here after frontend is loaded successfully.
+
+### 📍 Coin Chart
+![Chart](./images/chart.png)
