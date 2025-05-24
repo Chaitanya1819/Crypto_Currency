@@ -34,6 +34,8 @@ A full-stack web application to visualize real-time cryptocurrency prices and tr
 ---
 
 ## 📁 Folder Structure
+
+```
 trading/
 ├── src/
 │ ├── main/
@@ -41,7 +43,7 @@ trading/
 │ │ └── webapp/frontend/ # React frontend
 ├── pom.xml # Maven backend project
 └── application.properties # DB & API configuration
-
+```
 ---
 
 
