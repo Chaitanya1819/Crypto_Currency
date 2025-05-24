@@ -65,11 +65,11 @@ trading/
 CREATE DATABASE trading;
 ```
 
-2. Configure the Application
+2. **Configure the Application**
 File: src/main/resources/application.properties
 
 properties
-
+```
 spring.datasource.url=jdbc:mysql://localhost:3306/trading
 spring.datasource.username=your_mysql_username
 spring.datasource.password=your_mysql_password
@@ -79,26 +79,27 @@ spring.jpa.hibernate.ddl-auto=update
 server.port=5454
 
 coingecko.api.key=YOUR_CG_API_KEY
+```
 
-3. Run the Backend
+3. **Run the Backend**
 
 If successful, the backend will be running at:
 👉 http://localhost:5454
 
 ---
 
-🌐 Frontend Setup (React)
-1. Navigate to the React Project
+## 🌐 Frontend Setup (React)
+1. **Navigate to the React Project**
 
 cd src/main/webapp/frontend
-
-2. Install Dependencies
+ 
+2. **Install Dependencies**
 
 ```bash
 npm install
 ```
 
-3. Start the Development Server
+3. **Start the Development Server**
 
 ```bash
 npm run dev
@@ -106,3 +107,21 @@ npm run dev
 
 Frontend will be available at:
 👉 http://localhost:3000
+
+---
+
+## 🔁 API Endpoints
+Method	Endpoint	Description
+GET	/coins	Get list of all coins from DB
+GET	/coins/{id}	Get coin details by ID
+
+---
+
+## 🧪 Example Usage
+Open http://localhost:3000
+View top 100 crypto coins with name, price, and 24h change
+
+---
+
+## 📸 Screenshots
+Add your output images here after frontend is loaded successfully.
