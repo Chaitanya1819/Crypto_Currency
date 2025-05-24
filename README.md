@@ -63,10 +63,13 @@ trading/
 
 ```sql
 CREATE DATABASE trading;
+```
 
-
-2. **Update application.properties**
+2. Configure the Application
 File: src/main/resources/application.properties
+
+properties
+
 spring.datasource.url=jdbc:mysql://localhost:3306/trading
 spring.datasource.username=your_mysql_username
 spring.datasource.password=your_mysql_password
@@ -77,21 +80,29 @@ server.port=5454
 
 coingecko.api.key=YOUR_CG_API_KEY
 
+3. Run the Backend
 
-
-If successful, backend runs on:
+If successful, the backend will be running at:
 👉 http://localhost:5454
 
 ---
 
-## 🌐 Frontend Setup (React)
+🌐 Frontend Setup (React)
+1. Navigate to the React Project
 
-1. **Create a MySQL database:**
+cd src/main/webapp/frontend
 
-```sql
-CREATE DATABASE trading;
+2. Install Dependencies
 
-Frontend runs at:
+```bash
+npm install
+```
+
+3. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Frontend will be available at:
 👉 http://localhost:3000
----
-
